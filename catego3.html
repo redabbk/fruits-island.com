@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+   <title> coocktail juices </title>
+    <link rel="stylesheet" href="style.css"> <!-- تأكد من الربط الصحيح بالCSS -->
+</head>
+<body>
+    <section class="catego">
+        <h1 class="heading">Our <span>cooktail juices</span></h1>
+      
+        <div class="box-container">
+          <!-- Cate 1 -->
+          <div class="box">
+            <img src="s1.png" alt="Category 1">
+            <h3>fresh coocktail juice 1 </h3>
+            <p>fresh coocktail of kiwi with fresh lemon juice </p>
+            <span class="price">850DA/-</span>
+          </div>
+      
+
+          <div class="box">
+            <img src="s2.png" alt="Category 2">
+            <h3>fresh coocktail juice 2 </h3>
+            <p>fresh coocktail of peach with fresh orange juice </p>
+            <span class="price">350DA/-</span>
+          </div>
+<div class="box">
+            <img src="s3.png" alt="Category 3">
+            <h3>fresh coocktail juice 3</h3>
+            <p>fresh coocktail of watermelon with fresh grenade juice  </p>
+            <span class="price">450DA/-</span>
+          </div>
+          <div class="box">
+            <img src="s4.png" alt="Category 4">
+            <h3>fresh coocktail juice 4</h3>
+            <p>fresh coocktail of strawberry with fresh blueberry juice  </p>
+            <span class="price">550DA/-</span>
+          </div>
+          <div class="box">
+            <img src="s5.png" alt="Category 5">
+            <h3>fresh coocktail juice 5</h3>
+            <p>fresh coocktail of mangoo with fresh pineapple juice  </p>
+            <span class="price">700DA/-</span>
+          </div>
+          <div class="box">
+            <img src="s6.png" alt="Category 6">
+            <h3>fresh coocktail juice 6</h3>
+            <p>fresh coocktail of cantalop with fresh bananas juice  </p>
+            <span class="price">650DA/-</span>
+          </div>
+
+          <!-- Add up to Cate 12 just like this -->
+        </div>
+      </section>
+      <audio id="bg-music" loop>
+        <source src="videoplayback.m4a" type="audio/mpeg">
+      </audio>
+      
+      <script>
+        // شغل الموسيقى بعد أول نقرة
+        document.addEventListener('click', function () {
+          const music = document.getElementById('bg-music');
+          music.play();
+        }, { once: true });
+      </script>
+      <a href="svj.html" class="btn">return to home</a>
+   
+</body>
+</html>
